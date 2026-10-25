@@ -46,14 +46,12 @@
             width: 96px;
             height: 96px;
             border-radius: 50%;
-            background: linear-gradient(45deg, var(--accent-color), #b000ff);
             margin: 0 auto 16px;
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 32px;
-            font-weight: bold;
             box-shadow: 0 0 20px rgba(112, 0, 255, 0.4);
+            object-fit: cover; /* Keeps your photo from stretching */
         }
 
         h1 {
@@ -145,14 +143,14 @@
 <body>
 
     <div class="container">
-        <!-- Profile Picture / Placeholder Emoji -->
-        <div class="profile-img">👋</div>
+        <!-- Profile Picture Image Tag -->
+        <img src="profilepic.png" alt="Profile Picture" class="profile-img">
         
         <h1>Welcome</h1>
         <p class="username">enastros</p>
 
         <!-- Primary Target Link -->
-        <a href="https://guns.lol/catdogfish" class="main-btn" target="_blank">🎴 Visit My Guns.lol Profile</a>
+        <a href="https://guns.lol/catdogfish" class="main-btn" target="_blank">🎴My Guns.lol Profile</a>
 
         <div class="divider"></div>
         <p class="links-title">Other Channels</p>
